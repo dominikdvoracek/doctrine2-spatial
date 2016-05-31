@@ -39,6 +39,6 @@ class LineStringType extends GeometryType
 	 */
 	public function getName()
 	{
-		return 'geolinestring';
+		return 'geometrylinestring';
 	}
 }

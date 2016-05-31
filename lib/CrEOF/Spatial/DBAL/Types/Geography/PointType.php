@@ -39,6 +39,6 @@ class PointType extends GeographyType
 	 */
 	public function getName()
 	{
-		return 'point';
+		return 'geographypoint';
 	}
 }

@@ -39,6 +39,6 @@ class LineStringType extends GeographyType
 	 */
 	public function getName()
 	{
-		return 'linestring';
+		return 'geographylinestring';
 	}
 }

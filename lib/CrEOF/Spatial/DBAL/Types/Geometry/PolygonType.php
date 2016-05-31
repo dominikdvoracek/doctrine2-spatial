@@ -39,6 +39,6 @@ class PolygonType extends GeometryType
 	 */
 	public function getName()
 	{
-		return 'geopolygon';
+		return 'geometrypolygon';
 	}
 }
