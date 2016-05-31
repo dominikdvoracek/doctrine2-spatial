@@ -33,5 +33,12 @@ use CrEOF\Spatial\DBAL\Types\GeographyType;
  */
 class PolygonType extends GeographyType
 {
-
+	/**
+	 *
+	 * @return string
+	 */
+	public function getName()
+	{
+		return 'polygon';
+	}
 }

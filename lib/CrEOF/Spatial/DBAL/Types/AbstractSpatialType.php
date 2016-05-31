@@ -143,16 +143,6 @@ abstract class AbstractSpatialType extends Type
     }
 
     /**
-     * Gets the name of this type.
-     *
-     * @return string
-     */
-    public function getName()
-    {
-        return array_search(get_class($this), self::getTypesMap(), true);
-    }
-
-    /**
      * Gets the SQL declaration snippet for a field of this type.
      *
      * @param array            $fieldDeclaration

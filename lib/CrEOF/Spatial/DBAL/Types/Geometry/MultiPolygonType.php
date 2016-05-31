@@ -33,5 +33,12 @@ use CrEOF\Spatial\DBAL\Types\GeometryType;
  */
 class MultiPolygonType extends GeometryType
 {
-
+	/**
+	 *
+	 * @return string
+	 */
+	public function getName()
+	{
+		return 'geomultipolygon';
+	}
 }

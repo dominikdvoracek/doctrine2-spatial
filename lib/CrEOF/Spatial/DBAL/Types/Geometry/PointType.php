@@ -34,4 +34,12 @@ use CrEOF\Spatial\DBAL\Types\GeometryType;
 class PointType extends GeometryType
 {
 
+	/**
+	 *
+	 * @return string
+	 */
+	public function getName()
+	{
+		return 'geopoint';
+	}
 }
